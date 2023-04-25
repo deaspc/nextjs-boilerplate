@@ -1,5 +1,7 @@
 import Nav from "../components/nav";
-import UserBar from "../components/UserBar";
+import Profile from "../components/Profile";
+import Search from "../components/Search";
+import Category from "../components/Category";
 import ArticleCard from "../components/ArticleCard";
 import Head from "next/head";
 
@@ -10,7 +12,9 @@ function Homepage() {
         <title>Tech Dsgn Exp</title>
       </Head>
       <Nav />
-      <UserBar />
+      <Profile />
+      <Search />
+      <Category />
       <ArticleCard />
     </div>
   );

@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 body {
-  background: white;
+  background: #f5f4f0;
 }
 
 .nav-bar {
   position: fixed;
-
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: black;
+  bottom: 17px;
+  left: 20px;
+  right: 20px;
+  background: white;
+  border-radius: 40px;
 }
 
 .db {

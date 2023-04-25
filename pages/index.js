@@ -7,9 +7,7 @@ import Head from "next/head";
 function Homepage() {
   return (
     <div>
-      <Head>
-        <title>Tech Dsgn Exp</title>
-      </Head>
+      <Head></Head>
       <Nav />
       <Profile />
       <Search />

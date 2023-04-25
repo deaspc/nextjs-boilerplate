@@ -3,7 +3,7 @@ function Profile() {
     <div className="Profile">
       <div className="left-top">
         <div className="profile-pic">
-          <img src="/img/profilefinal.svg" />
+          <img src="/img/profile.svg" />
         </div>
         <div className="info-text">
           <div className="greeting">HI !</div>

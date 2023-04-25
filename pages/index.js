@@ -1,4 +1,5 @@
 import Nav from "../components/nav";
+import Topbar from "../component/Topbar";
 import Head from "next/head";
 
 function Home() {
@@ -8,7 +9,6 @@ function Home() {
         <title>Tech Dsgn Exp</title>
       </Head>
       <Nav />
-      <h1 className="text-9xl">Tech Design Experiment</h1>
     </div>
   );
 }

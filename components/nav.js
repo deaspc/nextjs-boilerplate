@@ -1,17 +1,26 @@
 function Nav() {
   const links = [
-    { id: "id1", label: "Home", href: "/" },
-    { id: "id2", label: "About", href: "/about" },
-    { id: "id3", label: "Contact", href: "/contact" },
+    { id: "id1", href: "/", icon: "/http://placehold.co/48x48" },
+    {
+      id: "id2",
+      href: "/about",
+      icon: "/http://placehold.co/48x48",
+    },
+    {
+      id: "id3",
+      href: "/contact",
+      icon: "/http://placehold.co/48x48",
+    },
   ];
 
   return (
-    <nav className="text-center">
+    <nav className="text-center nav-bar">
       <ul className="flex justify-between px-4 my-4 py-1">
-        {links.map((x) => (
-          <li key={x.id} className="flex px-2 py-1">
-            <a className="text-blue-500	no-underline text-sm" href={x.href}>
-              {x.label}
+        {links.map((link) => (
+          <li key={link.id} className="flex px-2 py-1">
+            <a className="text-blue-500	no-underline text-sm" href={link.href}>
+              <img src={link.icon} />
+              {link.label}
             </a>
           </li>
         ))}

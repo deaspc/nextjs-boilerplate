@@ -1,16 +1,19 @@
 import Nav from "../components/nav";
+import UserBar from "../components/UserBar";
+import ArticleCard from "../components/ArticleCard";
 import Head from "next/head";
 
-function Home() {
+function Homepage() {
   return (
     <div>
       <Head>
         <title>Tech Dsgn Exp</title>
       </Head>
       <Nav />
-      <h1 className="text-9xl">dea</h1>
+      <UserBar />
+      <ArticleCard />
     </div>
   );
 }
 
-export default Home;
+export default Homepage;

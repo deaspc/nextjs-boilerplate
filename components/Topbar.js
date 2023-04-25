@@ -1,6 +1,5 @@
 function Topbar() {
     return (
-<div id= "Topbar">
     <div class="top">
       <div class="left-top">
         <div class="profile-pic">

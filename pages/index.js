@@ -8,7 +8,6 @@ function Home() {
         <title>Tech Dsgn Exp</title>
       </Head>
       <Nav />
-      <h1 className="text-9xl">Tech Design Experiment</h1>
     </div>
   );
 }

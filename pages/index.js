@@ -9,6 +9,7 @@ function Home() {
         <title>Tech Dsgn Exp</title>
       </Head>
       <Nav />
+      <Topbar />
     </div>
   );
 }

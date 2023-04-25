@@ -1,14 +1,14 @@
 function Nav() {
   const links = [
-    { id: "id1", href: "/", icon: "/http://placehold.co/48x48" },
+    { id: "id1", href: "/", icon: "/img src=" },
     {
       id: "id2",
-      href: "/about",
+      href: "/Noti",
       icon: "/http://placehold.co/48x48",
     },
     {
       id: "id3",
-      href: "/contact",
+      href: "/Post",
       icon: "/http://placehold.co/48x48",
     },
   ];

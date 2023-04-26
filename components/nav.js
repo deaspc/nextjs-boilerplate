@@ -14,7 +14,7 @@ function Nav() {
   ];
 
   return (
-    <nav className="text-center nav-bar">
+    <div className="text-center nav-bar">
       <ul className="flex justify-between px-4 my-4 py-1">
         {links.map((link) => (
           <li key={link.id} className="flex px-2 py-1">
@@ -25,7 +25,7 @@ function Nav() {
           </li>
         ))}
       </ul>
-    </nav>
+    </div>
   );
 }
 

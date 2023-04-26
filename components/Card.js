@@ -14,11 +14,11 @@ function Card() {
 return (
     <Card className="text-left Card">
       <ul className="flex justify-between px-4 my-4 py-1">
-        {links.map((link) => (
-          <li key={link.id} className="flex px-2 py-1">
-            <a className="text-blue-500	no-underline text-sm" href={link.href}>
-              <img src={link.icon} />
-              {link.label}
+        {links.map((c) => (
+          <li key={c.card} className="flex px-2 py-1">
+            <a className="text-blue-500	no-underline text-sm" href={c.href}>
+              <img src={c.icon} />
+              {c.label}
             </a>
           </li>
         ))}

@@ -13,6 +13,7 @@ function Homepage() {
       <Profile />
       <Search />
       <Category />
+      <Card />
     </div>
   );
 }

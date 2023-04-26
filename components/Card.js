@@ -1,6 +1,9 @@
 function Card() {
   const links = [
-    { card: "card1", icon: "http://placehold.co/162x325" },
+    { 
+      card: "card1", 
+      icon: "http://placehold.co/162x325"
+    },
     {
       card: "card2",
       icon: "http://placehold.co/162x325",

@@ -1,13 +1,14 @@
-function Addimg() {
+function Addimg({ imageURL = "/img/add.svg", title, cover }) {
   return (
-    <div className="Addimg">
+    <div className="addimg_wrapper">
       <div className="icon">
-        <img src="/img/add.svg" />
+        <img src={imageURL} className="w-18 h-18" />
       </div>
-      <div className="add-image">Add image</div>
-      <div className="cover">(cover)</div>
+      <div class="description">
+        <h3>{title}</h3>
+      </div>
+      <div className="cover">{cover}</div>
     </div>
   );
 }
-
 export default Addimg;

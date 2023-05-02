@@ -196,7 +196,7 @@ body {
 .card_wrapper {
   /* border: 2px solid purple; */
   /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); */
-  padding: 0px;
+  padding-top: 0px;
   margin: 20px;
   border-radius: 30px 30px 20px 20px;
   background: white;
@@ -211,7 +211,7 @@ body {
 
 .card_wrapper .description {
   /* border: 1px solid green; */
-  padding: 10px, 10px, 20px, 10px;
+  /* padding: 10px, 10px, 20px, 10px; */
   border-radius: 20px;
   padding-left: 9.5px;
   padding-right: 9.5px;
@@ -234,9 +234,53 @@ body {
   width: 50%;
 }
 
-#Addimg {
-  width: 100%;
+.addimg_wrapper {
   display: flex;
-  flex-direction: collumn;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 46px;
+  padding-bottom: 46px;
+
+  margin-top: 130px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  border-radius: 20px;
+  background: white;
+  border: 1px solid #bdbdbd;
+}
+
+.addimg_wrapper .icon {
+  padding: 7px;
+  background: #4d55f5;
+  border-radius: 10px;
+}
+
+.addimg_wrapper .description {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400px;
+  color: #bdbdbd;
+}
+
+.addimg_wrapper .cover {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400px;
+  color: #bdbdbd;
+}
+
+.addimg-row {
+  /* border: 1px solid salmon; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.addimg-row a {
+  width: 50%;
 }

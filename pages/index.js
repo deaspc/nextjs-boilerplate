@@ -14,11 +14,11 @@ function Homepage() {
       <Search />
       <Category />
       <div class="card-row">
-        <a href="/Card/One">
-          <Card title="Test" styles="Cozy" roomSize="30" />
+        <a href="/Post">
+          <Card title="Sunghoon weverse" />
         </a>
         <a>
-          <Card title="Test2" styles="Cozy" roomSize="30" />
+          <Card title="Sunghoon ver.I" />
         </a>
         <a>
           <Card />

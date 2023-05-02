@@ -14,29 +14,24 @@ function Homepage() {
       <Search />
       <Category />
       <div class="card-row">
-        <a href="/Post">
-          <Card title="Sunghoon weverse" imageURL="/img/sunghoon1.svg"/>
+        {/* <a href="/Post"> */}
+        <a>
+          <Card title="Sunghoon weverse 2021" imageURL="/img/sunghoon1.svg" />
         </a>
         <a>
           <Card title="Sunghoon ver.I" />
         </a>
         <a>
-          <Card />
+          <Card title="Sunghoon weverse 2020" />
         </a>
         <a>
-          <Card />
+          <Card title="Jake season greeting" />
         </a>
         <a>
-          <Card />
+          <Card title="Jake ver.A" />
         </a>
         <a>
-          <Card />
-        </a>
-        <a>
-          <Card />
-        </a>
-        <a>
-          <Card />
+          <Card title="Jake ver.B" />
         </a>
       </div>
     </div>

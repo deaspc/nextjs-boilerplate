@@ -233,3 +233,10 @@ body {
 .card-row a {
   width: 50%;
 }
+
+#Addimg {
+  width: 100%;
+  display: flex;
+  flex-direction: collumn;
+  justify-content: space-between;
+}

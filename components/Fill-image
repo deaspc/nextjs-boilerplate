@@ -1,0 +1,15 @@
+function Fill_image() {
+    return (
+    <div className="Fill_image">
+      <div className="Fill_image_box">
+        <div className="add">
+          <img src="/img/add.svg" /></div>
+        </div>
+        <div className="add_image">Add Image</div>
+        <div className="cover">Cover</div>
+      </div>
+    </div>
+);
+}
+
+export default Fill_image;

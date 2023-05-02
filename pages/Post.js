@@ -1,3 +1,4 @@
+Import Fill_image from "../components/Fill_image";
 import Nav from "../components/nav.js";
 function Contact() {
   return (

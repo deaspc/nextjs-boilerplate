@@ -1,0 +1,7 @@
+function Addimage () {
+  return(
+    <div className= >  
+  )
+}
+
+export default Addimage;

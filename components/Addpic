@@ -1,0 +1,13 @@
+function Addpic() {
+    return (
+    <div className="Addpic">
+      <div className="icon">
+        <img src="/img/add.svg" /></div>
+        <div className="add-image">Add image</div>
+        <div className="acover">Cover</div>
+      </div>
+    </div>
+);
+}
+
+export default Addpic;

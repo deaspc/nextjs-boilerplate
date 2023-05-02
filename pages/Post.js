@@ -1,12 +1,12 @@
-import Addimage from "../components/Addimage";
+import Addpic from "../components/Addpic";
 import Nav from "../components/nav.js";
 function Contact() {
   return (
     <div>
       <Nav />
-      <Fill_image>
+      <Addpic />
     </div>
   );
 }
 
-export default Contact;
+export default Post;

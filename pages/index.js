@@ -13,7 +13,32 @@ function Homepage() {
       <Profile />
       <Search />
       <Category />
-      <Card />
+      <div class="card-row">
+        <a href="/Card/One">
+          <Card title="Test" styles="Cozy" roomSize="30" />
+        </a>
+        <a>
+          <Card title="Test2" styles="Cozy" roomSize="30" />
+        </a>
+        <a>
+          <Card />
+        </a>
+        <a>
+          <Card />
+        </a>
+        <a>
+          <Card />
+        </a>
+        <a>
+          <Card />
+        </a>
+        <a>
+          <Card />
+        </a>
+        <a>
+          <Card />
+        </a>
+      </div>
     </div>
   );
 }

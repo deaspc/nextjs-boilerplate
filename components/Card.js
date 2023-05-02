@@ -1,33 +1,23 @@
-function Card() {
-  const links = [
-    {
-      card: "card1",
-      icon: "http://placehold.co/162x235",
-    },
-    {
-      card: "card2",
-      icon: "http://placehold.co/162x235",
-    },
-    {
-      card: "card3",
-      icon: "http://placehold.co/162x235",
-    },
-  ];
-
+function Card({
+  title,
+  style,
+  roomSize,
+  imageURL = "https://placehold.co/162x235",
+}) {
   return (
-    <div className="text-left Card">
-      <ul className="flex justify-between px-4 my-4 py-1">
-        {links.map((c) => (
-          <li key={c.card} className="flex px-2 py-1">
-            <a className="text-blue-500	no-underline text-sm" href={c.href}>
-              <img src={c.icon} />
-              {c.label}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <div className="card_wrapper">
+      <div className="card_picture">
+        <img src={imageURL} className="w-full h-auto rounded-tl-mr-15" />
+        <div class="description">
+          <h3>{title}</h3>
+          <div className="Card_line"></div>
+          <div className="Room-desctiption">
+            <div className="Style"> {style}</div>
+            <div className="Roomsize"> {roomSize} m²</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
-
 export default Card;

@@ -19,19 +19,19 @@ function Homepage() {
           <Card title="Sunghoon weverse 2021" imageURL="/img/sunghoon1.svg" />
         </a>
         <a>
-          <Card title="Sunghoon ver.I" />
+          <Card title="Sunghoon ver.I" imageURL="/img/sunghoon2.svg" />
         </a>
         <a>
-          <Card title="Sunghoon weverse 2020" />
+          <Card title="Sunghoon weverse 2020" imageURL="/img/sunghoon3.svg" />
         </a>
         <a>
-          <Card title="Jake season greeting" />
+          <Card title="Jake season greeting" imageURL="/img/jake1.svg" />
         </a>
         <a>
-          <Card title="Jake ver.A" />
+          <Card title="Jake ver.A" imageURL="/img/jake2.svg" />
         </a>
         <a>
-          <Card title="Jake ver.B" />
+          <Card title="Jake ver.B" imageURL="/img/jake3.svg" />
         </a>
       </div>
     </div>

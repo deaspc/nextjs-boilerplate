@@ -15,7 +15,7 @@ function Homepage() {
       <Category />
       <div class="card-row">
         <a href="/Post">
-          <Card title="Sunghoon weverse" />
+          <Card title="Sunghoon weverse" imageURL="/img/sunghoon1.svg"/>
         </a>
         <a>
           <Card title="Sunghoon ver.I" />

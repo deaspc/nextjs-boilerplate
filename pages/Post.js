@@ -1,10 +1,8 @@
-import Addpic from "../components/Addpic";
 import Nav from "../components/nav.js";
-function Contact() {
+function Post() {
   return (
     <div>
       <Nav />
-      <Addpic />
     </div>
   );
 }

@@ -316,3 +316,56 @@ body {
 .addimg-row a {
   width: 50%;
 }
+
+.name-box {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+}
+
+.name-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400px;
+  color: #bdbdbd;
+}
+
+.description-box {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 107px;
+
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+}
+
+.description-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400px;
+  color: #bdbdbd;
+}
+

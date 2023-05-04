@@ -5,7 +5,7 @@ import Description from "../components/Description.js";
 
 function Post() {
   return (
-    <div>
+    <div className="db post_wrapper">
       <Posttopbar />
       <div class="addimg-row">
         <a>

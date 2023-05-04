@@ -7,7 +7,7 @@ import Head from "next/head";
 
 function Homepage() {
   return (
-    <div>
+    <div className="Screen">
       <Head></Head>
       <Nav />
       <Profile />

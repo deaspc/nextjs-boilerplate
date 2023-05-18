@@ -1,9 +1,12 @@
 function Search() {
-    return (
+  return (
     <div className="Seach">
       <div className="left-middle">
         <div className="searchbar">
-          <div className="search-text"><img src="/img/search.svg" />search</div>
+          <div className="search-text">
+            <img src="/img/search.svg" />
+            search
+          </div>
         </div>
         <div className="filter-button">
           <div className="filter-icon">
@@ -12,7 +15,7 @@ function Search() {
         </div>
       </div>
     </div>
-);
+  );
 }
 
 export default Search;

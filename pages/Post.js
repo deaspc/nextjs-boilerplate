@@ -5,18 +5,20 @@ import Description from "../components/Description.js";
 
 function Post() {
   return (
-    <div className="db post_wrapper">
-      <Posttopbar />
-      <div class="addimg-row">
-        <a>
-          <Addimg imageURL="/img/add.svg" title="Add image" cover="(cover)" />
-        </a>
-        <a>
-          <Addimg imageURL="/img/add.svg" title="Add image" cover="(cover)" />
-        </a>
+    <div className="Screen">
+      <div className="db post_wrapper">
+        <Posttopbar />
+        <div class="addimg-row">
+          <a>
+            <Addimg imageURL="/img/add.svg" title="Add image" cover="(cover)" />
+          </a>
+          <a>
+            <Addimg imageURL="/img/add.svg" title="Add image" cover="(cover)" />
+          </a>
+        </div>
+        <Name />
+        <Description />
       </div>
-      <Name />
-      <Description />
     </div>
   );
 }

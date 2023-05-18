@@ -13,7 +13,7 @@ function Homepage() {
       <Profile />
       <Search />
       <Category />
-      <div class="card-row">
+      <div className="card-row">
         {/* <a href="/Post"> */}
         <a>
           <Card title="Sunghoon weverse 2021" imageURL="/img/sunghoon1.svg" />

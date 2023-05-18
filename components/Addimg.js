@@ -4,7 +4,7 @@ function Addimg({ imageURL = "/img/add.svg", title, cover }) {
       <div className="icon">
         <img src={imageURL} className="w-18 h-18" />
       </div>
-      <div class="description">
+      <div className="description">
         <h3>{title}</h3>
       </div>
       <div className="cover">{cover}</div>

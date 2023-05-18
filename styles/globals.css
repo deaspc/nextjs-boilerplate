@@ -28,13 +28,7 @@ body {
 }
 
 /* profile top bar */
-#profile {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-top {
+.profile {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -75,21 +69,13 @@ body {
 }
 
 /* search bar */
-#Search {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.left-middle {
+.search {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  padding: 12px, 0px, 12px, 21px;
 }
 
 .searchbar {
@@ -101,23 +87,22 @@ body {
   border-radius: 30px;
   margin-top: 20px;
   padding-left: 21px;
-  padding-right: 192px;
+  padding-right: 88%;
 }
 
 .search-text {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
 
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
   color: #bdbdbd;
 }
 
-/* ปุ่ม search filter */
+/* search filter */
 .filter-button {
   display: flex;
   flex-direction: row;
@@ -215,8 +200,6 @@ body {
 }
 
 .card_wrapper .description {
-  /* border: 1px solid green; */
-  /* padding: 10px, 10px, 20px, 10px; */
   border-radius: 20px;
   padding-left: 20px;
   padding-right: 9.5px;
@@ -228,7 +211,6 @@ body {
 }
 
 .card-row {
-  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -247,13 +229,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: white;
   align-items: center;
 
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 45px;
   padding-bottom: 26px;
+
+  background: white;
+  border-radius: 0px 0px 20px 20px;
 }
 
 /* ปุ่มpost */
@@ -381,16 +365,92 @@ body {
   color: #bdbdbd;
 }
 
-.post_wrapper {
-  width: 100vw;
-}
-
+/* tag's part */
 .tags {
   margin-top: 53px;
   padding-left: 20px;
 
   font-family: "Open Sans";
   font-size: 18px;
+  font-weight: 700px;
+  color: black;
+}
+
+/* คำอธิบายแท็ก */
+.your-card {
+  margin-top: 3px;
+  padding-left: 20px;
+
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400px;
+  color: black;
+}
+
+/* คำอธิบายแท็ก */
+.your-interested-card {
+  margin-top: 20px;
+  padding-left: 20px;
+
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400px;
+  color: black;
+}
+
+/* ช่องกรอกแท็ก */
+.tag-box {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+}
+
+.tag-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400px;
+  color: #bdbdbd;
+}
+
+/* ทำให้ช่องสำหรับกรอกความกว้างเท่าจอ */
+.post_wrapper {
+  width: 100vw;
+}
+
+/* หน้าnoti */
+.notitopbar {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  border-radius: 0px 0px 20px 20px;
+}
+
+.noti-text {
+  font-family: "Open Sans";
+  font-size: 20px;
   font-weight: 700px;
   color: black;
 }

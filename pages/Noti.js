@@ -1,16 +1,13 @@
-import Head from "next/head";
 import Nav from "../components/nav";
+import Notitopbar from "../components/Notitopbar";
 
-function About() {
+function Noti() {
   return (
     <div>
-      <Head>
-        <title>About page</title>
-      </Head>
       <Nav />
-      <h1>About</h1>
+      <Notitopbar />
     </div>
   );
 }
 
-export default About;
+export default Noti;

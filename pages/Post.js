@@ -22,7 +22,7 @@ function Post() {
         <div className="tags">Tags</div>
         <div className="your-card">Your card</div>
         <Tag />
-        <div className="your-interested-cardnters">Your interested card</div>
+        <div className="your-interested-card">Your interested card</div>
         <Tag />
       </div>
     </div>

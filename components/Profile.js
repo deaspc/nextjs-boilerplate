@@ -1,7 +1,6 @@
 function Profile() {
   return (
-    <div className="Profile">
-      <div className="left-top">
+      <div className="profile">
         <div className="profile-pic">
           <img src="/img/profile.svg" />
         </div>
@@ -10,7 +9,6 @@ function Profile() {
           <div className="name">deadea</div>
         </div>
       </div>
-    </div>
   );
 }
 

@@ -6,10 +6,16 @@ body {
   background: #f5f4f0;
 }
 
-.Screen {
-  max-width: 700px;
+.db {
+  /* border: 1px solid salmon; */
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* หน้าindex */
+/* nav bar */
 .nav-bar {
   position: fixed;
   bottom: 17px;
@@ -21,14 +27,7 @@ body {
   padding-right: 50px;
 }
 
-.db {
-  border: 1px solid salmon;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+/* profile top bar */
 #profile {
   width: 100%;
   display: flex;
@@ -75,6 +74,7 @@ body {
   line-height: 22px;
 }
 
+/* search bar */
 #Search {
   width: 100%;
   display: flex;
@@ -117,6 +117,7 @@ body {
   color: #bdbdbd;
 }
 
+/* ปุ่ม search filter */
 .filter-button {
   display: flex;
   flex-direction: row;
@@ -136,6 +137,7 @@ body {
   height: 15px;
 }
 
+/* ปุ่มpopular */
 #Category {
   width: 100%;
   display: flex;
@@ -173,6 +175,7 @@ body {
   text-align: center;
 }
 
+/* ปุ่มrandom */
 .random-button {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -197,16 +200,14 @@ body {
   text-align: center;
 }
 
+/* การ์ดสินค้า */
 .card_wrapper {
-  /* border: 2px solid purple; */
-  /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); */
   padding-top: 0px;
   margin: 20px;
   border-radius: 40px;
   background: white;
 }
 
-/* กรอบเส้นเหมือนของ Card Wrapper ไม่ได้อยู่แค่ตัวรูป */
 .card_wrapper .card_picture {
   width: 100%;
   height: auto;
@@ -235,9 +236,11 @@ body {
 }
 
 .card-row a {
-  width: 50%;
+  width: 25%;
 }
 
+/* หน้าpost */
+/* top bar */
 .topbar {
   width: 100%;
 
@@ -253,6 +256,7 @@ body {
   padding-bottom: 26px;
 }
 
+/* ปุ่มpost */
 .post-button {
   padding-left: 42.5px;
   padding-right: 42.5px;
@@ -270,6 +274,7 @@ body {
   color: white;
 }
 
+/* เพิ่มรูป */
 .addimg_wrapper {
   display: flex;
   flex-direction: column;
@@ -318,9 +323,10 @@ body {
 }
 
 .addimg-row a {
-  width: 50%;
+  width: 25%;
 }
 
+/*ช่องกรอกชื่อสินค้า */
 .name-box {
   display: flex;
   justify-content: flex-start;
@@ -348,6 +354,7 @@ body {
   color: #bdbdbd;
 }
 
+/* ช่องใส่คำอธิบายสินค้า */
 .description-box {
   display: flex;
   justify-content: flex-start;

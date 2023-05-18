@@ -3,12 +3,10 @@ import Profile from "../components/Profile";
 import Search from "../components/Search";
 import Category from "../components/Category";
 import Card from "../components/Card";
-import Head from "next/head";
 
 function Homepage() {
   return (
-    <div className="Screen">
-      <Head></Head>
+    <div>
       <Nav />
       <Profile />
       <Search />

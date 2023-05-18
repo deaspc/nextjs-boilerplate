@@ -384,3 +384,13 @@ body {
 .post_wrapper {
   width: 100vw;
 }
+
+.tags {
+  margin-top: 53px;
+  padding-left: 20px;
+
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700px;
+  color: black;
+}

@@ -2,6 +2,7 @@ import Posttopbar from "../components/Posttopbar.js";
 import Addimg from "../components/Addimg.js";
 import Name from "../components/Name.js";
 import Description from "../components/Description.js";
+import Tag from "../components/Tag.js";
 
 function Post() {
   return (
@@ -20,7 +21,9 @@ function Post() {
         <Description />
         <div className="tags">Tags</div>
         <div className="your-card">Your card</div>
+        <Tag /T>
         <div className="your-interested-cardnters">Your interested card</div>
+        <Tag />
       </div>
     </div>
   );

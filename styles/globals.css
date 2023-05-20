@@ -264,7 +264,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-top: 46px;
+  padding-top: 0px;
   padding-bottom: 46px;
 
   margin-top: 20px;
@@ -277,11 +277,12 @@ body {
 }
 
 .addimg_wrapper .icon-star {
-  padding-left: 100px;
+  padding-left: 90%;
 }
 
 .addimg_wrapper .icon {
   padding: 7px;
+  margin-top: 40px;
   background: #4d55f5;
   border-radius: 10px;
 }
@@ -316,8 +317,6 @@ body {
 
 /*ช่องกรอกชื่อสินค้า */
 .name-box {
-  display: flex;
-  justify-content: flex-start;
   max-width: 100%;
 
   margin-top: 20px;
@@ -335,7 +334,9 @@ body {
 }
 
 .name-text {
-  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400px;
@@ -344,8 +345,6 @@ body {
 
 /* ช่องใส่คำอธิบายสินค้า */
 .description-box {
-  display: flex;
-  justify-content: flex-start;
   max-width: 100%;
 
   margin-top: 20px;
@@ -363,6 +362,9 @@ body {
 }
 
 .description-text {
+  display: flex;
+  justify-content: space-between;
+
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400px;
@@ -404,8 +406,6 @@ body {
 
 /* ช่องกรอกแท็ก */
 .tag-box {
-  display: flex;
-  justify-content: flex-start;
   max-width: 100%;
 
   margin-top: 4px;
@@ -424,6 +424,9 @@ body {
 }
 
 .tag-text {
+  display: flex;
+  justify-content: space-between;
+
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400px;

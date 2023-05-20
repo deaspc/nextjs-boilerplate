@@ -15,7 +15,6 @@ function Post() {
               imageURL1="/img/star.svg"
               imageURL2="/img/add.svg"
               title="Add image"
-              cover="(cover)"
             />
           </a>
           <a>
@@ -23,7 +22,6 @@ function Post() {
               imageURL1="/img/star.svg"
               imageURL2="/img/add.svg"
               title="Add image"
-              cover="(cover)"
             />
           </a>
         </div>

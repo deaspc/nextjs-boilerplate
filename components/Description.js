@@ -1,7 +1,9 @@
 function Description() {
   return (
     <div className="description-box">
-      <div className="description-text">Add description (120 characters)</div>
+      <div className="description-text">
+        Add description (120 characters) <img src="/img/star.svg" />
+      </div>
     </div>
   );
 }

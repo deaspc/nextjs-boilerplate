@@ -1,8 +1,8 @@
-import Nav from "../components/nav";
-import Profile from "../components/Profile";
-import Search from "../components/Search";
-import Category from "../components/Category";
-import Card from "../components/Card";
+import Nav from "../components/nav.js";
+import Profile from "../components/Profile.js";
+import Search from "../components/Search.js";
+import Category from "../components/Category.js";
+import Card from "../components/Card.js";
 
 function Homepage() {
   return (

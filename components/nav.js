@@ -3,7 +3,7 @@ function Nav() {
     { id: "id1", href: "/", icon: "/img/home.svg" },
     {
       id: "id2",
-      href: "/Noti",
+      href: "/Notification",
       icon: "/img/noti.svg",
     },
     {

@@ -276,6 +276,10 @@ body {
   border: 1px solid #bdbdbd;
 }
 
+.addimg_wrapper .icon-star {
+  padding-left: 100px;
+}
+
 .addimg_wrapper .icon {
   padding: 7px;
   background: #4d55f5;

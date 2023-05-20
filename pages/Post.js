@@ -11,10 +11,20 @@ function Post() {
         <Posttopbar />
         <div className="addimg-row">
           <a>
-            <Addimg imageURL="/img/add.svg" title="Add image" cover="(cover)" />
+            <Addimg
+              imageURL1="/img/star.svg"
+              imageURL2="/img/add.svg"
+              title="Add image"
+              cover="(cover)"
+            />
           </a>
           <a>
-            <Addimg imageURL="/img/add.svg" title="Add image" cover="(cover)" />
+            <Addimg
+              imageURL1="/img/star.svg"
+              imageURL2="/img/add.svg"
+              title="Add image"
+              cover="(cover)"
+            />
           </a>
         </div>
         <Name />

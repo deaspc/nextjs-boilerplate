@@ -5,7 +5,7 @@ function Profile() {
           <img src="/img/profile.svg" />
         </div>
         <div className="info-text">
-          <div className="greeting">HI !</div>
+          <div className="hi">HI !</div>
           <div className="name">deadea</div>
         </div>
       </div>

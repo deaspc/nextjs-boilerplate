@@ -50,7 +50,7 @@ body {
   padding-right: 21px;
 }
 
-.greeting {
+.hi {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -70,11 +70,13 @@ body {
 .search {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
   align-items: center;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 20px;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .searchbar {
@@ -82,13 +84,13 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 21px;
-  scroll-padding-right: 21px;
+  padding-right: 21px;
   background: white;
-  width: 90%;
   border-radius: 30px;
 }
 
@@ -97,36 +99,24 @@ body {
 }
 
 .search-text {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   color: #bdbdbd;
 }
 
-/* search filter */
+/* search by filter */
 .filter-button {
-  width: 10%;
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 20px;
   background: white;
   border-radius: 20px;
-  padding-top: 18.5px;
-  padding-bottom: 18.5px;
-  padding-left: 16.5px;
-  padding-right: 16.5px;
+  padding: 20px;
 }
 
 .filter-icon {
-  width: 19px;
-  height: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ปุ่มpopular */

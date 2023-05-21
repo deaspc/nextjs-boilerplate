@@ -478,15 +478,31 @@ body {
   color: black;
 }
 
-.message_wrapper {
+.message-box {
+  margin: 20px;
+  padding: 20px;
+
+  background: white;
+  border-radius: 20px;
+}
+
+.message-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 0%;
+}
+/* .message_wrapper {
   margin: 20px;
   padding: 10px;
   border-radius: 40px;
   background: white;
-}
+} */
 
 /* รายละเอียดในกล่องข้อความ */
-.message_wrapper .message-box {
+/* .message_wrapper .message-box {
   width: 100%;
   height: auto;
 
@@ -495,9 +511,9 @@ body {
   justify-content: space-between;
 
   padding-right: 75%;
-}
+} */
 
-/* รายละเอียดการขอswap */
+/* รายละเอียดการขอswap
 .message_wrapper .swap-details {
   display: flex;
   flex-direction: row;
@@ -505,32 +521,32 @@ body {
 
   padding: 0%;
   gap: 5px;
-}
+} */
 
 /* usernameที่มาขอswapการ์ด */
-.message_wrapper .username {
+/* .message_wrapper .username {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 600px;
   color: black;
-}
+} */
 
 /* ชื่อการ์ดที่ขอมาแลกกับเรา */
-.message_wrapper .message1 {
+/* .message_wrapper .message1 {
   display: flex;
 
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 700px;
   color: black;
-}
+} */
 
 /* ชื่อการ์ดที่เรามี*/
-.message_wrapper .message2 {
+/* .message_wrapper .message2 {
   display: flex;
 
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 700px;
   color: black;
-}
+} */

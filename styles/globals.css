@@ -6,10 +6,6 @@ body {
   background: #f5f4f0;
 }
 
-.db {
-  /* border: 1px solid salmon; */
-}
-
 * {
   box-sizing: border-box;
 }
@@ -78,18 +74,26 @@ body {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 20px;
 }
 
 .searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
   padding-top: 14px;
   padding-bottom: 14px;
-  background: white;
-  width: 100%;
-  height: 52px;
-  border-radius: 30px;
-  margin-top: 20px;
   padding-left: 21px;
-  padding-right: 88%;
+  scroll-padding-right: 21px;
+  background: white;
+  width: 90%;
+  border-radius: 30px;
+}
+
+.search-icon {
+  margin-right: 3px;
 }
 
 .search-text {
@@ -106,6 +110,7 @@ body {
 
 /* search filter */
 .filter-button {
+  width: 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -218,7 +223,7 @@ body {
 }
 
 .card-row a {
-  width: 25%;
+  width: 50%;
 }
 
 /* หน้าpost */
@@ -276,10 +281,6 @@ body {
   border: 1px solid #bdbdbd;
 }
 
-.addimg_wrapper:hover {
-  border-color: #4d55f5;
-}
-
 .addimg_wrapper .icon-star {
   padding-left: 90%;
 }
@@ -315,7 +316,7 @@ body {
 }
 
 .addimg-row a {
-  width: 25%;
+  width: 50%;
 }
 
 /*ช่องกรอกชื่อสินค้า */
@@ -334,10 +335,6 @@ body {
   background: white;
   border-radius: 20px;
   border: 1px solid #bdbdbd;
-}
-
-.name-box:hover {
-  border-color: #4d55f5;
 }
 
 .name-text {
@@ -366,10 +363,6 @@ body {
   background: white;
   border-radius: 20px;
   border: 1px solid #bdbdbd;
-}
-
-.description-box:hover {
-  border-color: #4d55f5;
 }
 
 .description-text {
@@ -432,10 +425,6 @@ body {
   background: white;
   border-radius: 20px;
   border: 1px solid #bdbdbd;
-}
-
-.tag-box:hover {
-  border-color: #4d55f5;
 }
 
 .tag-text {
@@ -521,62 +510,24 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 
-
-/* .message_wrapper {
-  margin: 20px;
-  padding: 10px;
-  border-radius: 40px;
-  background: white;
-} */
-
-/* รายละเอียดในกล่องข้อความ */
-/* .message_wrapper .message-box {
-  width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  padding-right: 75%;
-} */
-
-/* รายละเอียดการขอswap
-.message_wrapper .swap-details {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  padding: 0%;
-  gap: 5px;
-} */
-
-/* usernameที่มาขอswapการ์ด */
-/* .message_wrapper .username {
+.othercard {
   font-family: "Open Sans";
   font-size: 14px;
-  font-weight: 600px;
+  font-weight: 700;
   color: black;
-} */
+}
 
-/* ชื่อการ์ดที่ขอมาแลกกับเรา */
-/* .message_wrapper .message1 {
-  display: flex;
+.swap-icon {
+  margin-left: 3px;
+  margin-right: 3px;
+}
 
+.mycard {
   font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 700px;
+  font-size: 14px;
+  font-weight: 700;
   color: black;
-} */
-
-/* ชื่อการ์ดที่เรามี*/
-/* .message_wrapper .message2 {
-  display: flex;
-
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 700px;
-  color: black;
-} */
+}

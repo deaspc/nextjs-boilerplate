@@ -2,10 +2,10 @@ function Search() {
   return (
     <div className="search">
       <div className="searchbar">
-        <div className="search-text">
+        <div className="search-icon">
           <img src="/img/search.svg" />
-          search
         </div>
+        <div className="search-text">search</div>
       </div>
       <div className="filter-button">
         <div className="filter-icon">

@@ -504,8 +504,7 @@ body {
   justify-content: space-between;
 
   padding: 0%;
-
-  border: 1px solid pink;
+  gap: 5px;
 }
 
 /* usernameที่มาขอswapการ์ด */
@@ -518,7 +517,7 @@ body {
 
 /* ชื่อการ์ดที่ขอมาแลกกับเรา */
 .message_wrapper .message1 {
-  margin-right: 5px;
+  display: flex;
 
   font-family: "Open Sans";
   font-size: 16px;
@@ -528,7 +527,7 @@ body {
 
 /* ชื่อการ์ดที่เรามี*/
 .message_wrapper .message2 {
-  margin-left: 5px;
+  display: flex;
 
   font-family: "Open Sans";
   font-size: 16px;

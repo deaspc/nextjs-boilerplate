@@ -9,7 +9,8 @@ function Messagebox({
     <div className="message_wrapper">
       <div className="message-box">
         <div classname="message-profile">
-          <img src={imageURL3} className="w-45 h-45" />{" "}
+          <img src={imageURL3} className="w-45 h-45" />
+          
         </div>
         <div className="message-details">
           <div className="username">

@@ -474,7 +474,7 @@ body {
 .noti-text {
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
   color: black;
 }
 
@@ -497,23 +497,35 @@ body {
   /* border: 1px solid pink; */
 }
 
+.swap-details {
+  width: 100%;
+}
+
 .username {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
 
   /* border: 1px solid pink; */
 }
 
 .swap-card {
-  width: 100%;
+  width: 25%;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  gap: 5px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
 }
 /* .message_wrapper {
   margin: 20px;

@@ -487,12 +487,25 @@ body {
 }
 
 .message-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.swap-details .username {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+}
 
-  gap: 0%;
+.swap-details .swap-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* .message_wrapper {
   margin: 20px;

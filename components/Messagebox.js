@@ -8,9 +8,11 @@ function Messagebox() {
             ddiscute · 2 mins ago <img src="/img/circle.svg" />
           </div>
           <div className="swap-card">
-            Jake day1 ver.O
-            <img src="/img/swap.svg" />
-            Niki day1 ver.O
+            <div className="othercard">Jake day1 ver.O</div>
+            <div className="swap-icon">
+              <img src="/img/swap.svg" />
+            </div>
+            <div className="mycard">Niki day1 ver.O</div>
           </div>
         </div>
       </div>

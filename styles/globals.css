@@ -33,7 +33,6 @@ body {
   width: 100%;
   padding-top: 46px;
   padding-left: 20px;
-  padding-right: 21px;
 }
 
 .profile-pic {
@@ -45,25 +44,30 @@ body {
 }
 
 .info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   width: 100%;
   padding-left: 11px;
-  padding-right: 21px;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .hi {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 22px;
 }
 
 .name {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 22px;
 }
 
 /* search bar */

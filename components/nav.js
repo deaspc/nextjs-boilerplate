@@ -18,7 +18,7 @@ function Nav() {
       <ul className="flex justify-between px-4 my-4 py-1">
         {links.map((link) => (
           <li key={link.id} className="flex px-2 py-1">
-            <a className="text-blue-500	no-underline text-sm" href={link.href}>
+            <a className="text-black-500 text-sm" href={link.href}>
               <img src={link.icon} />
               {link.label}
             </a>

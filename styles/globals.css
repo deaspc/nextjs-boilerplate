@@ -21,10 +21,12 @@ body {
   bottom: 17px;
   left: 20px;
   right: 20px;
-  background: white;
-  border-radius: 40px;
+
   padding-left: 50px;
   padding-right: 50px;
+
+  background: white;
+  border-radius: 40px;
 }
 
 /* profile top bar */
@@ -189,22 +191,21 @@ body {
 .card_wrapper {
   padding-top: 0px;
   margin: 20px;
-  border-radius: 40px;
+  border-radius: 50px 50px 20px 20px;
   background: white;
 }
 
 .card_wrapper .card-box {
   width: 100%;
   height: auto;
-  border-radius: 20px;
 }
 
 .card_wrapper .description {
-  border-radius: 20px;
   padding-left: 20px;
   padding-right: 9.5px;
   padding-top: 10px;
   padding-bottom: 20px;
+
   font-size: 16px;
   font-family: "Open Sans";
   font-weight: 600;
@@ -276,6 +277,10 @@ body {
   border: 1px solid #bdbdbd;
 }
 
+.addimg_wrapper:hover {
+  border-color: #4d55f5;
+}
+
 .addimg_wrapper .icon-star {
   padding-left: 90%;
 }
@@ -304,7 +309,6 @@ body {
 }
 
 .addimg-row {
-  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -333,6 +337,10 @@ body {
   border: 1px solid #bdbdbd;
 }
 
+.name-box:hover {
+  border-color: #4d55f5;
+}
+
 .name-text {
   display: flex;
   justify-content: space-between;
@@ -359,6 +367,10 @@ body {
   background: white;
   border-radius: 20px;
   border: 1px solid #bdbdbd;
+}
+
+.description-box:hover {
+  border-color: #4d55f5;
 }
 
 .description-text {
@@ -421,6 +433,10 @@ body {
   background: white;
   border-radius: 20px;
   border: 1px solid #bdbdbd;
+}
+
+.tag-box:hover {
+  border-color: #4d55f5;
 }
 
 .tag-text {

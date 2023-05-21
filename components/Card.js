@@ -3,7 +3,7 @@ function Card({ title, imageURL = "https://placehold.co/152x225" }) {
     <div className="card_wrapper">
       <div className="card-box">
         <img src={imageURL} className="w-full h-auto rounded-tl-mr-10" />
-        <div class="description">
+        <div className="description">
           <h3>{title}</h3>
         </div>
       </div>

@@ -129,7 +129,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .left-bottom {
@@ -141,15 +140,16 @@ body {
 }
 
 .popular-button {
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background: #4d55f5;
-  border-radius: 30px;
-  margin-top: 20px;
-  margin-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 37px;
   padding-right: 37px;
-  padding-top: 16px;
+
+  margin-top: 20px;
+  margin-right: 12px;
+
+  background: #4d55f5;
+  border-radius: 30px;
 }
 
 .popular-text {
@@ -164,17 +164,16 @@ body {
 
 /* ปุ่มrandom */
 .random-button {
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background: white;
-  width: 127px;
-  height: 51px;
-  border-radius: 30px;
-  margin-top: 20px;
-  margin-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 35px;
   padding-right: 35px;
-  padding-top: 16px;
+
+  margin-top: 20px;
+  margin-right: 12px;
+
+  background: white;
+  border-radius: 30px;
 }
 
 .random-text {
@@ -481,7 +480,7 @@ body {
 
 .message_wrapper {
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 40px;
   background: white;
 }
@@ -505,6 +504,8 @@ body {
   justify-content: space-between;
 
   padding: 0%;
+
+  border: 1px solid pink;
 }
 
 /* usernameที่มาขอswapการ์ด */

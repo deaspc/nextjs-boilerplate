@@ -8,7 +8,9 @@ function Messagebox({
   return (
     <div className="message_wrapper">
       <div className="message-box">
-        <img src={imageURL3} className="w-45 h-45" />
+        <div classname="message-profile">
+          <img src={imageURL3} className="w-45 h-45" />{" "}
+        </div>
         <div className="message-details">
           <div className="username">
             <h3>{username}</h3>

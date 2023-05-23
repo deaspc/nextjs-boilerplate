@@ -7,6 +7,10 @@ import Tag from "../components/Tag.js";
 function Post() {
   return (
     <div>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet"
+      />
       <div className="db post_wrapper">
         <Posttopbar />
         <div className="addimg-row">

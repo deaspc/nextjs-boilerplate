@@ -1,13 +1,13 @@
-function Nav() {
+function Nav2() {
   const links = [
-    { id: "id1", href: "/", icon: "/img/homecolor.svg" },
+    { id: "id33", href: "/", icon: "/img/home.svg" },
     {
-      id: "id2",
+      id: "id44",
       href: "/Notification",
-      icon: "/img/noti.svg",
+      icon: "/img/noticolor.svg",
     },
     {
-      id: "id3",
+      id: "id55",
       href: "/Post",
       icon: "/img/post.svg",
     },
@@ -29,4 +29,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Nav2;

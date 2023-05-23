@@ -25,6 +25,12 @@ function Homepage() {
         <a>
           <Card title="Jake season greeting" imageURL="/img/jake1.svg" />
         </a>
+        <a>
+          <Card title="Jake ver.A" imageURL="/img/jake12.svg" />
+        </a>
+        <a>
+          <Card title="Jake ver.B" imageURL="/img/jake13.svg" />
+        </a>
       </div>
     </div>
   );
